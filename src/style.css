@@ -1,0 +1,131 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 2px solid #333;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  th {
+    background-color:rgb(191, 89, 123);
+    color: white;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: pink;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e6f7ff;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  table caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    table, th, td {
+      font-size: 12px;
+      padding: 5px;
+    }
+  }
+   */
+
+   /*!Birhday*/
+ /* Container for the whole app */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f0f8ff; /* Light blue background */
+  padding: 20px;
+}
+
+/* Birthday card styling */
+.birthday-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff; /* White background for each card */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+.birthday-card img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover; /* Ensures the image stays within the circle */
+}
+
+/* Name styling */
+.birthday-card span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: auto;
+}
+
+/* Age styling */
+.birthday-card b {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Button styling */
+button {
+  height: 40px;
+  width: 100px;
+  background-color: #ff6347; /* Tomato color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #e5533d; /* Darken on hover */
+}
+
+
+/* 
+  img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 700px;
+  }
+ button{
+ height:30px ;
+ width: 70px;
+ }
+ .conatiner{
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+ } */
